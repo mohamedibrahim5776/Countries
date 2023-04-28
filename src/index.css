@@ -1,0 +1,50 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: black;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+:root {
+--Dark-Blue--Dark-Mode-Elements: hsl(209, 23%, 22%);
+--Very-Dark-Blue--Dark-Mode-Background:#202D36;
+--Very-Dark-Blue--Light-Mode-Text: hsl(200, 15%, 8%);
+--Dark-Gray--Light-Mode-Input: hsl(0, 0%, 52%);
+--Very-Light-Gray--Light-Mode-Background: hsl(0, 0%, 98%);
+--White--Dark-Mode-Text--Light-Mode-Elements: hsl(0, 0%, 100%);
+}
+.darkModeProduct {
+  background-color: var(--Very-Dark-Blue--Dark-Mode-Background);
+}
+#product {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 40px;
+  justify-content: center;
+}
+.darkMode {
+  background-color: var(--Dark-Blue--Dark-Mode-Elements);
+  color: var(--Very-Light-Gray--Light-Mode-Background) ;
+}
+.darkMode1 {
+  background-color: var(--Very-Dark-Blue--Dark-Mode-Background);
+  color: white   ;
+  
+}
+.darkModeBody {
+  background-color: var(--Very-Dark-Blue--Dark-Mode-Background);
+  color: white;
+
+}
+.darkModeProduct {
+  background-color: var(--Dark-Blue--Dark-Mode-Elements);
+  color: white;
+  border: solid 1px var(--Very-Dark-Blue--Dark-Mode-Background);
+}

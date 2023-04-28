@@ -1,0 +1,25 @@
+.card {
+    margin: 20px 0;
+    font-family: 'Nunito Sans', sans-serif;
+    background-color: inherit !important;
+    color: inherit;
+}
+.card-body {
+    text-align: left;
+    background-color: inherit;
+    color: inherit;
+}
+.card-title {
+    font-size: 30px !important ;
+    font-weight: bold !important;
+    margin-bottom: 20px !important;
+}
+.card-img-top {
+    height: 50%;
+}
+h5 {
+    font-weight: bold !important;    
+}
+span {
+    font-weight: lighter;
+}
